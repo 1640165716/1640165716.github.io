@@ -376,6 +376,7 @@ color:#fff
     font-size: 12px;
     line-height: 84px;
     margin-right: 60px;
+
 }
 .main3 .xbt a{
     text-decoration: none;
@@ -385,12 +386,13 @@ color:#fff
     color: #ffa000
 }
 .main3 .mx .mxt{
-    margin-left: 20px;   
+    margin-left: 20px;  
+    position: relative; 
 }
 .main3 .wuyue{
     position: absolute;
-    top: 3070px;
-    left: 241px;
+    bottom: 0px;
+    left: 90px;
     font-size: 18px;
     color: #fff;
     font-weight: 600
@@ -399,8 +401,8 @@ color:#fff
     width: 224px;;
     height: 274px;
     position: absolute;
-    top: 2837px;
-    left: 70px;
+    top: 0px;
+    left: 0px;
     font-size: 15px;
     background:rgba(0,0,0,0.3);
     display: none;
@@ -428,8 +430,8 @@ color:#fff
 }
 .main3 .xm{
     position: absolute;
-    top: 3070px;
-    left: 454px;
+    bottom:0px;
+    left: 60px;
     font-size: 18px;
     color: #fff;
     font-weight: 600
@@ -438,8 +440,8 @@ color:#fff
     width: 224px;;
     height: 274px;
     position: absolute;
-    top: 2836px;
-    left: 388px;
+    top: 0px;
+    left: 0px;
     font-size: 15px;
     background:rgba(0,0,0,0.3);
     display: none;
@@ -452,8 +454,8 @@ color:#fff
 }
 .main3 .kxs{
     position: absolute;
-    top: 3070px;
-    left: 684px;
+    bottom:0px;
+    left: 63px;
     font-size: 18px;
     color: #fff;
     font-weight: 600
@@ -462,8 +464,8 @@ color:#fff
     width: 194px;;
     height: 274px;
     position: absolute;
-    top: 2837px;
-    left: 648px;
+    top: 0px;
+    left: 16px;
     font-size: 15px;
     background:rgba(0,0,0,0.3);
     display: none;
@@ -476,8 +478,8 @@ color:#fff
 }
 .main3 .xfda{
     position: absolute;
-    top: 3070px;
-    left: 940px;
+  bottom:0px;
+    left:90px;
     font-size: 18px;
     color: #fff;
     font-weight: 600
@@ -486,8 +488,8 @@ color:#fff
     width: 224px;;
     height: 274px;
     position: absolute;
-    top: 2837px;
-    left: 875px;
+    top: 0px;
+    left: 0px;
     font-size: 15px;
     background:rgba(0,0,0,0.3);
     display: none;
@@ -500,8 +502,8 @@ color:#fff
 }
 .main3 .xl{
     position: absolute;
-    top: 3070px;
-    left: 1177px;
+    bottom:0px;
+    left: 70px;
     font-size: 18px;
     color: #fff;
     font-weight: 600
@@ -510,8 +512,8 @@ color:#fff
     width: 224px;;
     height: 274px;
     position: absolute;
-    top: 2837px;
-    left: 1121px;
+    top: 0px;
+    left: 0px;
     font-size: 15px;
     background:rgba(0,0,0,0.3);
     display: none;
