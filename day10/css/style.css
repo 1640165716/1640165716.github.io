@@ -1,0 +1,203 @@
+html, body{
+    height: 100%;
+}
+#iot{
+    height: 100%;
+    /* background: pink; */
+}
+/* ---------header  start-------------- */
+.header{
+    height: 87px;
+    border-bottom: 1px solid #265fa6;
+    background: #7ab5e9;
+    position: relative;
+}
+.header h2{
+    color: #fff;
+    font-size: 24px;
+    line-height: 87px;
+    padding-left: 30px;
+}
+.header .sjcj{
+    width: 60px;
+    height: 15px;
+    font-size: 12px;
+    position: absolute;
+    /* background-image: url(../images/n1.png); */
+    background:url(../images/n1.png) no-repeat center top;
+    right: 675px;
+    bottom: 0;
+    padding-top: 30px;
+    line-height: 15px;
+    color: #fff;
+}
+.header .sjcj:hover{
+    background:#4b8fde url(../images/n1_hover.png) no-repeat center top;
+height: 20px;
+}
+.header .sjzs{
+    width: 60px;
+    height: 15px;
+    font-size: 12px;
+    position: absolute;
+    /* background-image: url(../images/n1.png); */
+    background:url(../images/n2.png) no-repeat center top;
+    right: 570px;
+    bottom: 0;
+    padding-top: 30px;
+    line-height: 15px;
+    color: #fff;
+}
+.header .sjzs:hover{
+    background:#4b8fde url(../images/n2_hover.png) no-repeat center top;
+height: 20px;
+}
+.header .sygl{
+    width: 60px;
+    height: 15px;
+    font-size: 12px;
+    position: absolute;
+    /* background-image: url(../images/n1.png); */
+    background:url(../images/n3.png) no-repeat center top;
+    right: 465px;
+    bottom: 0;
+    padding-top: 30px;
+    line-height: 15px;
+    color: #fff;
+}
+.header .sygl:hover{
+    background:#4b8fde url(../images/n3_hover.png) no-repeat center top;
+height: 20px;
+}
+.header .sjtb{
+    width: 60px;
+    height: 15px;
+    font-size: 12px;
+    position: absolute;
+    /* background-image: url(../images/n1.png); */
+    background:url(../images/n4.png) no-repeat center top;
+    right: 360px;
+    bottom: 0;
+    padding-top: 30px;
+    line-height: 15px;
+    color: #fff;
+}
+.header .sjtb:hover{
+    background:#4b8fde url(../images/n4_hover.png) no-repeat center top;
+height: 20px;
+}
+.header .sbgl{
+    width: 60px;
+    height: 15px;
+    font-size: 12px;
+    position: absolute;
+    /* background-image: url(../images/n1.png); */
+    background:url(../images/n5.png) no-repeat center top;
+    right: 255px;
+    bottom: 0;
+    padding-top: 30px;
+    line-height: 15px;
+    color: #fff;
+}
+.header .sbgl:hover{
+    background:#4b8fde url(../images/n5_hover.png) no-repeat center top;
+height: 20px;
+}
+.header .sjfx{
+    width: 60px;
+    height: 15px;
+    font-size: 12px;
+    position: absolute;
+    /* background-image: url(../images/n1.png); */
+    background:url(../images/n6.png) no-repeat center top;
+    right: 150px;
+    bottom: 0;
+    padding-top: 30px;
+    line-height: 15px;
+    color: #fff;
+}
+.header .sjfx:hover{
+    background:#4b8fde url(../images/n6_hover.png) no-repeat center top;
+height: 20px;
+}
+.header .xtgl{
+    width: 60px;
+    height: 15px;
+    font-size: 12px;
+    position: absolute;
+    /* background-image: url(../images/n1.png); */
+    background:url(../images/n7.png) no-repeat center top;
+    right: 45px;
+    bottom: 0;
+    padding-top: 30px;
+    line-height: 15px;
+    color: #fff;
+}
+.header .xtgl:hover{
+    background:#4b8fde url(../images/n7_hover.png) no-repeat center top;
+height: 20px;
+}
+
+
+
+
+
+
+/* ----------header end------------------ */
+
+
+
+
+.main{
+    height: calc(100% - 88px);
+    /* background: #585858; */
+}
+
+/* -------control start--------------- */
+.main .control{
+    width: 195px;
+    height: 100%;
+    background: #427ec7;
+    border-right: 2px solid #407ec7;
+}
+.firmenu{
+    color: #fff;
+    font-size: 12px;
+    margin-top: 30px;
+    line-height: 31px;
+    margin-left: 20px;
+}
+
+.firmenu .secmenu{
+    display: none;
+    list-style: url(../images/jiao.png) inside;
+    margin-left: 50px;
+}
+
+.firmenu li:hover .secmenu{
+    display: block;
+    color: #eee;
+    /* list-style: url(../images/jiao.png) inside; */
+}
+.firmenu li:hover {
+    color: #000;
+    /* background: url(../images/left_hover.jpg); */
+}
+
+
+
+/* -------control end--------------- */
+
+/* ---------content stars------------------------ */
+.main .content{
+    width: calc(100% - 197px);
+    height: 100%;
+    background: white;
+}
+table{
+    width:100%;
+    border-spacing: 0;
+}
+tr:nth-child(2n){
+    background: #f1f1f1;
+}
