@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        .box {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: center
+        }
+
+        .box .header,
+        .box .footer {
+            height: 50px;
+            width: 100%;
+            background: #666;
+        }
+
+        .box .main {
+            flex: 1;
+            background: #333;
+            display: flex
+        }
+
+        .box .main .nav {
+            width: 192px;
+            background: #58a
+        }
+
+        .box .main .section {
+            flex: 1
+        }
+
+        .box .main .aside {
+            width: 160px;
+            background: red
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="header">header</div>
+        <div class="main">
+            <div class="nav">nav</div>
+            <div class="section">section</div>
+            <div class="aside">aside</div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+
+</html>

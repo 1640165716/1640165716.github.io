@@ -1,0 +1,227 @@
+html,body{
+    height: 100%
+}
+.box{
+    height: 100%;
+}
+.content{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+.box .main1{
+    height: 312px;
+    background-image: url(../images/bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.box .main1 h2{
+    width: 200px;
+    font-size: 30px;
+    margin: 60px auto;
+    text-align: center
+}
+.main1 .content .search{
+    width: 100%;
+    height: 174px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: #fff;
+}
+.main1 .content .search .u1{
+    height: 174px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center
+}
+.main1 .content .search .u1 li{
+    width: 100px;
+    height: 100px;
+   display: flex
+}
+.main1 .search .u1 li span{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column
+
+}
+.main1 .search .u1 li i img{
+    width: 40px;
+    height: 40px;
+    margin: auto
+}
+.main1 .search .u1 li i{
+    width: 40px;
+    height: 40px;
+    margin: auto
+}
+.main1 .search .u1 li p{
+    text-align: center;
+    font-size: 15px;
+    color: gray
+}
+.main1 .search .u1 li .hide img{
+margin-left: 30px;
+margin-top: 26px
+}
+.main1 .search .u1 li .hide{
+    display: none
+}
+.main1 .search .u1 li:hover{
+    background: #f83244;
+    border-radius: 50%
+}
+.main1 .search .u1 li:hover .hide{
+    display: block
+}
+.main1 .search .u1 li:hover .show{
+    display: none
+}
+.p1{
+    margin-left: 3px;
+    margin-top: 60px
+}
+.main1 .search .u1 li .hide .p2{
+    font-size: 7px;
+    line-height: 20px
+}
+.main2{
+    width:100%;
+    height: 400px;
+}
+.main2 h2{
+    width: 600px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    height: 40px;
+}
+.main2 .area{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 48px;
+}
+.main2 .area p{
+    font-size: 18px;
+    line-height: 58px;
+    padding-left: 20px;
+}
+.main2 .area .icon{
+    width: 50px;
+    height: 50px;
+    background: #f83244;
+    margin-left: 78px;
+    margin-top:20px;
+    display: none;
+    border-radius: 50%
+}
+.main2 .area .icon img{
+    margin-left: 17px;
+    margin-top:20px;
+}
+.main2 .area .didian:hover .icon{
+    display: block;
+}
+.main3 h3 img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.main3 h3 {
+    font-size: 14px;
+    color: #090a1c;
+    width: 110px;
+    border-right: 1px solid;
+    float: left;
+}
+.main3 ul{
+    display: flex;
+    width: 300px;
+    justify-content:space-around
+}
+.main3 ul li{
+    font-size: 12px;
+}
+.main3 ul li:hover{
+    text-decoration: underline
+}
+.main4{
+    height: 500px;
+    width: 100%;
+}
+.main4 h2{
+    width: 600px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    height: 40px;
+}
+.main4 .support{
+    width: 425px;
+    height: 20px;
+    margin: auto
+}
+.main4 .support ul{
+    width: 425px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between
+}
+.main4 .support ul li:hover{
+    text-decoration: underline;
+    cursor: pointer
+} 
+.main4 .cankao{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.main4 .support{
+    margin-top:10px;
+}
+.main4 .cankao .mark {
+    position: relative;
+}
+.main4 .cankao .mark .introduct{
+    width: 253px;
+    height: 100px;
+    background: #fff;
+    position: absolute;
+    bottom: -50px;
+    left: 14px;
+}
+.main4 .cankao .mark .introduct h3{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 20px
+}
+.main4 .cankao .mark .introduct ul{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 144px;
+    margin-left: 18px;
+}
+.main4 .cankao .mark .introduct ul li{
+    font-size: 14px
+}
+.main4 .cankao .mark .introduct:hover{
+    height: 130px;
+}
+.main4 p{
+    width: 160px;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    background: #f83244;
+    line-height: 40px;
+    border-radius: 20px;
+    color: #fff;
+}
