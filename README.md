@@ -10,5 +10,7 @@ diyici
 
 <a href="https://1640165716.github.io/day10/html/iot.html">农业管理系统</a>
 
+<a href="https://1640165716.github.io/day13/html/婚礼纪.html">婚礼纪删减</a>
+
 
 
