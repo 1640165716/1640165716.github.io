@@ -1,0 +1,244 @@
+html,body{
+    height: 100%;
+}
+*{
+    flex-shrink: 0
+}
+#box{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .header{
+        height: 44px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:  5px;
+    }
+}   
+.main{
+    flex: 1;
+    overflow: auto;
+    .banner{
+        height: 210px;
+        background-image: url(../images/images/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center center
+    }
+    .sort{
+        height: 81px;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            li{
+                width:20%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                span{
+                    margin-bottom: 10px;
+                    font-size: 15px;
+                    line-height: 8px;
+                    margin-top: 9px;
+                    img{
+                        width: 38px;
+                        height: 38px;
+                    }
+                }
+            }
+        }
+    }
+    .active{
+        height: 85px;
+        background: #f4f4f4;
+        background-image: url(../images/images/bg.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center center;
+        display: flex;
+        flex-direction: column;
+        p{
+            margin-left: 96px;
+            .f-news{
+                display: inline-block;
+                width: 30px;
+                height: 18px;
+                border: 1px solid #ffd9a0;
+                font-size: 8px;
+                text-align: center;
+                color: #ffd9a0;
+            }
+            .s-news{
+                font-size: 10px;
+                margin-left: 10px
+            }
+        }
+    }
+    .s-banner{
+        height: 170px;
+        background-image: url(../images/images/banner1.jpg);
+        background-repeat: no-repeat;
+        background-size: 90%;
+        background-position: center center;
+    }
+    .goods{
+        height: 150px;
+        ul{
+            display: flex;
+            overflow: auto;
+            display: flex;
+            li{ 
+                width: 105px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img{
+                    width: 100px;
+                    height: 100px;
+                }
+                .jieshao{
+                    font-size: 6px;
+                }
+            }
+        }
+    }
+    .t-banner{
+        height: 170px;
+        background-image: url(../images/images/list2.jpg);
+        background-repeat: no-repeat;
+        background-size: 90%;
+        background-position: center center;
+        margin-top: 10px;
+    }
+    .t-goods{
+        height: 150px;
+        ul{
+            display: flex;
+            overflow: auto;
+            display: flex;
+            li{ 
+                width: 105px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img{
+                    width: 100px;
+                    height: 100px;
+                }
+                .jieshao{
+                    font-size: 6px;
+                }
+            }
+        }
+    } 
+    .f-banner{
+        height: 170px;
+        background-image: url(../images/images/list1.jpg);
+        background-repeat: no-repeat;
+        background-size: 90%;
+        background-position: center center;
+        margin-top: 10px;
+    }
+    .f-goods{
+        height: 150px;
+        ul{
+            display: flex;
+            overflow: auto;
+            display: flex;
+            li{ 
+                width: 105px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img{
+                    width: 100px;
+                    height: 100px;
+                }
+                .jieshao{
+                    font-size: 6px;
+                }
+            }
+        }
+    }
+    .hot-goods{
+        height: 775px;
+        margin-top: 33px;
+    .title{
+            height: 50px;
+            overflow: hidden;
+        p{
+            text-align: center;
+        }
+        .f-title{
+            letter-spacing: 30px;
+            font-size: 13px;
+        }
+        .s-title{
+            font-size: 6px;
+            line-height: 6px;
+            margin-top: 8px;
+            margin-left: -32px;
+        }
+    }
+    .boutique{
+        height: 711px;
+        background: #f0f0f0;
+        ul{
+            height: 696px;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-around;
+            li{
+                width: 160px;
+                height: 222px;
+                background: #fff;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 5px;
+                img{
+                    height: 140px;
+                    width: 140px;
+                }
+                .jieshao{
+                    font-size: 10px;
+                }
+                .price{
+                    display: flex;
+                    justify-content: space-between;
+                    i{
+                        padding-right: 56px;
+                        margin-top: 10px;
+                    }
+                    .money{
+                        font-size: 10px;
+                        color: #f54d7e
+                    }
+                    .form{
+                        font-size: 9px;
+                        color: #9a9a9a
+                    }
+                }
+            }
+        }
+    }
+    }
+}
+.footer{
+height: 75px;
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    li{
+        height:75px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center
+    }
+}
+}

@@ -1,0 +1,134 @@
+html, body {
+  height: 100%;
+}
+
+.zhifubao {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.zhifubao .header {
+  height: 160px;
+  width: 100%;
+  background: #3f454f;
+  display: flex;
+  flex-direction: column;
+}
+
+.zhifubao .header .f-header {
+  flex: 1;
+  display: flex;
+}
+
+.zhifubao .header .f-header li {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.zhifubao .header .f-header li i {
+  font-family: "iconfont";
+  font-style: normal;
+  font-size: 20px;
+  padding-left: 16px;
+  color: #fff;
+}
+
+.zhifubao .header .f-header li span {
+  font-size: 14px;
+  color: #fff;
+}
+
+.zhifubao .header .f-header li:nth-child(1) {
+  flex: 6;
+}
+
+.zhifubao .header .s-header {
+  flex: 5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.zhifubao .header .s-header li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.zhifubao .header .s-header li i {
+  font-size: 35px;
+  line-height: 35px;
+  color: #fff;
+}
+
+.zhifubao .header .s-header li span {
+  font-size: 15px;
+  line-height: 15px;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.zhifubao .main {
+  flex: 1;
+}
+
+.zhifubao .main ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.zhifubao .main ul li {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+}
+
+.zhifubao .main ul li i {
+  font-size: 19px;
+}
+
+.zhifubao .main ul li span {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #4e4e4e;
+}
+
+.zhifubao .footer {
+  height: 50px;
+  background: #3f454f;
+}
+
+.zhifubao .footer .z-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.zhifubao .footer .z-footer li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.zhifubao .footer .z-footer li i {
+  font-size: 23px;
+  line-height: 23px;
+  color: #9a9a9a;
+  margin-top: 8px;
+}
+
+.zhifubao .footer .z-footer li span {
+  font-size: 10px;
+  line-height: 10px;
+  margin-top: 3px;
+  color: #9a9a9a;
+}
