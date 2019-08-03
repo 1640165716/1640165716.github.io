@@ -12,5 +12,8 @@ diyici
 
 <a href="https://1640165716.github.io/day13/html/婚礼纪.html">婚礼纪删减</a>
 
+<a href="https://1640165716.github.io/day14/html/支付宝.html">支付宝</a>
+
+<a href="https://1640165716.github.io/day14/html/金字塔.html">金字塔</a>
 
 
