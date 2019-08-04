@@ -17,3 +17,4 @@ diyici
 <a href="https://1640165716.github.io/day14/html/金字塔.html">金字塔</a>
 
 
+<a href="https://1640165716.github.io/day14/html/Ghost.html">Ghost基本功能</a>
