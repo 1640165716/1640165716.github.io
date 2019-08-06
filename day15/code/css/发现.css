@@ -1,0 +1,310 @@
+html,
+body {
+  height: 100%;
+}
+
+#shouye {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #ccc;
+}
+
+#shouye .main {
+  flex: 1;
+  overflow: auto;
+}
+
+#shouye .main .f-main {
+  height: 4.266667rem;
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+}
+
+#shouye .main .f-main .left {
+  width: 4.933333rem;
+  position: relative;
+}
+
+#shouye .main .f-main .left .p1 {
+  font-size: .373333rem;
+  color: #f99114;
+  line-height: .373333rem;
+  margin-top: .666667rem;
+  margin-left: .32rem;
+}
+
+#shouye .main .f-main .left .p2 {
+  font-size: .28rem;
+  color: #969696;
+  line-height: .813333rem;
+  margin-left: .32rem;
+}
+
+#shouye .main .f-main .left i img {
+  height: 1.773333rem;
+  width: 1.946667rem;
+  position: absolute;
+  right: .293333rem;
+  bottom: .306667rem;
+}
+
+#shouye .main .f-main .right {
+  width: 4.933333rem;
+}
+
+#shouye .main .f-main .right .top {
+  height: 2.093333rem;
+  display: flex;
+  border-left: .04rem dashed #ededed;
+  border-top: .04rem dashed #ededed;
+}
+
+#shouye .main .f-main .right .top .left {
+  width: 3.066667rem;
+}
+
+#shouye .main .f-main .right .top .left .p1 {
+  font-size: .4rem;
+  color: #1ca8e5;
+  line-height: .4rem;
+  margin-top: .6rem;
+}
+
+#shouye .main .f-main .right .top .left .p2 {
+  font-size: .28rem;
+  color: #969696;
+  line-height: .813333rem;
+  margin-left: .32rem;
+}
+
+#shouye .main .f-main .right .top .right {
+  width: 1.96rem;
+  text-align: center;
+  margin-top: .4rem;
+}
+
+#shouye .main .f-main .right .top .right img {
+  width: 1.333333rem;
+  height: 1.333333rem;
+}
+
+#shouye .main .f-main .right .bottom {
+  height: 2.093333rem;
+  display: flex;
+  border-left: .04rem dashed #ededed;
+  border-top: .04rem dashed #ededed;
+}
+
+#shouye .main .f-main .right .bottom .left {
+  width: 3.066667rem;
+}
+
+#shouye .main .f-main .right .bottom .left .p3 {
+  font-size: .4rem;
+  color: #eb6967;
+  line-height: .4rem;
+  margin-top: .6rem;
+  margin-left: .32rem;
+}
+
+#shouye .main .f-main .right .bottom .left .p4 {
+  font-size: .28rem;
+  color: #969696;
+  line-height: .813333rem;
+  margin-left: .32rem;
+}
+
+#shouye .main .f-main .right .bottom .right {
+  width: 1.96rem;
+  text-align: center;
+  margin-top: .4rem;
+}
+
+#shouye .main .f-main .right .bottom .right img {
+  width: 1.333333rem;
+  height: 1.333333rem;
+}
+
+#shouye .main .s-main {
+  height: 24.933333rem;
+  margin-top: .266667rem;
+  background: #fff;
+  overflow: hidden;
+}
+
+#shouye .main .s-main h2 {
+  text-align: center;
+  margin-top: .533333rem;
+}
+
+#shouye .main .s-main h2 i {
+  vertical-align: middle;
+}
+
+#shouye .main .s-main h2 i img {
+  width: .453333rem;
+  height: .453333rem;
+}
+
+#shouye .main .s-main h2 span {
+  vertical-align: middle;
+  font-size: .453333rem;
+  font-weight: 600;
+}
+
+#shouye .main .s-main h3 {
+  font-size: .266667rem;
+  color: #b3b3b3;
+  line-height: .48rem;
+  text-align: center;
+}
+
+#shouye .main .s-main ul {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: .4rem;
+}
+
+#shouye .main .s-main ul li {
+  height: 7.2rem;
+  width: 4.6rem;
+}
+
+#shouye .main .s-main ul li .picture img {
+  width: 4.573333rem;
+  height: 4.573333rem;
+}
+
+#shouye .main .s-main ul li .content h4 {
+  font-size: .373333rem;
+  font-weight: 600;
+  line-height: .373333rem;
+  margin-top: .173333rem;
+  text-indent: 1em;
+}
+
+#shouye .main .s-main ul li .content .p5 {
+  font-size: .24rem;
+  color: #b2b2b2;
+  line-height: .573333rem;
+}
+
+#shouye .main .s-main ul li .content .p5 span {
+  margin-left: .293333rem;
+  display: inline-block;
+}
+
+#shouye .main .s-main ul li .content .p6 .prise {
+  font-size: .293333rem;
+  color: #fe6500;
+  margin-left: .533333rem;
+}
+
+#shouye .main .s-main ul li .content .p6 .youhui {
+  display: inline-block;
+  font-size: .186667rem;
+  color: #eb6967;
+  margin-top: .2rem;
+  border: .013333rem dashed #eb6967;
+  margin-left: .266667rem;
+}
+
+#shouye .main .s-main ul li .content .p7 {
+  font-size: .266667rem;
+  height: .88rem;
+  color: #b2b2b2;
+  text-align: center;
+  line-height: .88rem;
+  border: .013333rem dashed #b2b2b2;
+}
+
+#shouye .main .t-main {
+  height: 8rem;
+  overflow: hidden;
+  background: #fff;
+  margin-top: .293333rem;
+}
+
+#shouye .main .t-main h2 {
+  text-align: center;
+  font-size: .426667rem;
+  font-weight: 600;
+  margin-top: .266667rem;
+}
+
+#shouye .main .t-main h2 i {
+  vertical-align: middle;
+}
+
+#shouye .main .t-main h2 i img {
+  width: .453333rem;
+  height: .453333rem;
+}
+
+#shouye .main .t-main .p1 {
+  font-size: .266667rem;
+  color: #b3b3b3;
+  line-height: .48rem;
+  text-align: center;
+}
+
+#shouye .main .t-main ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#shouye .main .t-main ul li {
+  height: 4.8rem;
+  width: 3.2rem;
+}
+
+#shouye .main .t-main ul li .title {
+  margin-left: .4rem;
+  width: 1.333333rem;
+  font-size: .28rem;
+  color: #fff;
+  padding: .08rem .12rem;
+  background: #000;
+}
+
+#shouye .main .t-main ul li i img {
+  width: 3rem;
+  height: 2rem;
+  margin-left: 0.2rem;
+  margin-top: .4rem;
+}
+
+#shouye .main .t-main ul li .p2 {
+  font-size: .32rem;
+  color: #343434;
+  margin-left: .4rem;
+  margin-top: 1.013333rem;
+}
+
+#shouye .main .t-main ul li .p3 {
+  font-size: .293333rem;
+  color: #e05744;
+  margin-top: .4rem;
+  margin-left: .4rem;
+  display: inline-block;
+}
+
+#shouye .main .t-main ul li .p4 {
+  font-size: .213333rem;
+  color: #b3b3b3;
+  margin-top: .4rem;
+  margin-left: .4rem;
+  display: inline-block;
+  text-decoration: line-through;
+}
+
+#shouye .footer {
+  height: 1.333333rem;
+  background: #000;
+  border-top: .053333rem solid #efefef;
+}
