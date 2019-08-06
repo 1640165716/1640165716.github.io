@@ -19,6 +19,6 @@ diyici
 
 <a href="https://1640165716.github.io/day14/html/Ghost.html">Ghost基本功能</a>
 
-<a href="https://1640165716.github.io/day15/code/html/饿了么.html">饿了么</a>
+<a href="https://1640165716.github.io/day15/code/html/饿了吗.html">饿了么</a>
 
 <a href="https://1640165716.github.io/day15/code/html/发现.html">发现</a>
