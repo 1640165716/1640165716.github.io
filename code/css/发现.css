@@ -316,4 +316,18 @@ body {
 
 #shouye .footer ul li {
   margin-top: .4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#shouye .footer ul li i img {
+  width: .533333rem;
+  height: .533333rem;
+}
+
+#shouye .footer ul li p {
+  font-size: .266667rem;
+  color: #828282;
 }

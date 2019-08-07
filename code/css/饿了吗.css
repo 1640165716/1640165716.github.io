@@ -357,17 +357,22 @@ body {
 #box .footer ul {
   display: flex;
   justify-content: space-around;
-  align-content: center;
+  align-items: center;
 }
 
 #box .footer ul li {
   display: flex;
   flex-direction: column;
-  align-content: center;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #box .footer ul li i img {
-  width: 6.66667vw;
-  height: 6.66667vw;
+  width: 5.33333vw;
+  height: 5.33333vw;
+}
+
+#box .footer ul li p {
+  font-size: 2.66667vw;
+  line-height: 4vw;
 }

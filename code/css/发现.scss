@@ -329,6 +329,22 @@ body {
 
             li {
                 margin-top: .4rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+
+                i {
+                    img {
+                        width: .533333rem;
+                        height: .533333rem;
+                    }
+                }
+
+                p {
+                    font-size: .266667rem;
+                    color: #828282;
+                }
 
             }
         }

@@ -366,19 +366,24 @@ body {
         ul {
             display: flex;
             justify-content: space-around;
-            align-content: center;
+            align-items: center;
 
             li {
                 display: flex;
                 flex-direction: column;
-                align-content: center;
-                justify-content: center;
+                align-items: center;
+                justify-content: space-around;
 
                 i {
                     img {
-                        width: vw(50);
-                        height: vw(50);
+                        width: vw(40);
+                        height: vw(40);
                     }
+                }
+
+                p {
+                    font-size: vw(20);
+                    line-height: vw(30);
                 }
             }
         }
