@@ -22,3 +22,5 @@ diyici
 <a href="https://1640165716.github.io/code/html/饿了吗.html">饿了么</a>
 
 <a href="https://1640165716.github.io/code/html/发现.html">发现</a>
+
+<a href="https://1640165716.github.io/day16/html/婚礼纪.html">婚礼纪移动端</a>
